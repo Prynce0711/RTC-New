@@ -1,0 +1,22 @@
+{
+  "name": "rtc-database-app",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "npx tsx src/main.ts",
+    "build": "tsc",
+    "start": "pnpm run build && electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "electron": "^40.1.0"
+  }
+}
